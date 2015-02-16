@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            nimahajan
 tagline:          'Personal Blog'
-description:      'Sharing Ideas,knowledge and whatever that comes to mind...!'
+description:      'Sharing Ideas ..!'
 url:              http://www.nimahajan.com
 baseurl:          /
 
