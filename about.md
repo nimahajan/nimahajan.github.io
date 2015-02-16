@@ -4,6 +4,6 @@ title: About
 ---
 
 <p clakss="message">
-  Hi, I am a software engineer at EBay.com. And I love do lot of android stuff.
+  Hi, I am a software engineer at EBay.com. Views here are personal. You can find me [@nimahajan](https://twitter.com/nilesh_mahajan)
 </p>
 
