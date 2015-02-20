@@ -70,7 +70,7 @@ object StringPatternMatchUtility {
 ```
 #### Things to notice here -
 1. val is like final in Java. A very good explanation is available at the [stackoverflow] (http://stackoverflow.com/questions/1791408/what-is-the-difference-between-a-var-and-val-definition-in-scala)
-2. break -  Scala does have 'break'. However there are various other ways to break out of loop. More at [stackoverflow]
+2. break -  Scala does not have 'break'. However there are various other ways to break out of loop. More at [stackoverflow]
 (http://stackoverflow.com/questions/2742719/how-do-i-break-out-of-a-loop-in-scala)
 3. For loop syntax is another thing to look for -
   * If you want to do usual increment by 1, you can do  - for(j <- 0 to count).
