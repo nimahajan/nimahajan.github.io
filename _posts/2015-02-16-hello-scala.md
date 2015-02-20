@@ -7,7 +7,7 @@ title: Hello Scala !
 Its about time (because its never too late) to start learning scala seriously. So I started reading blogs, books etc. I started remembering some non-usual syntax. But best way is probably to start coding small. So I am going to start with some simple algorithms written in scala to learn basics.
 
 
-### 1.Sum of first N numbers recursively
+### 1. Sum of first N numbers recursively
 ```
 package com.nimahajan.sample
 
@@ -32,7 +32,7 @@ object SumUtility {
 4. For all function parameters, data type is after the variable name.
 
 
-### 2.String Pattern Matching
+### 2. String Pattern Matching
 ```
 object StringPatternMatchUtility {
  
