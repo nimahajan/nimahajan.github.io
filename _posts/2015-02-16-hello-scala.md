@@ -4,9 +4,10 @@ title: Hello Scala !
 ---
 
 ##About
-Its about time (because its never too late) to start learning scala seriously. So I started reading blogs, books etc. I started remembering some non-usual syntax. But best way is probably to start coding small. Some simple algorithms written in scala to learn basics.
+Its about time (because its never too late) to start learning scala seriously. So I started reading blogs, books etc. I started remembering some non-usual syntax. But best way is probably to start coding small. So I am going to start with some simple algorithms written in scala to learn basics.
 
-###Sum of first N numbers recursively
+
+###1.Sum of first N numbers recursively
 ```
 package com.nimahajan.sample
 
