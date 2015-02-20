@@ -10,7 +10,7 @@ Its about time (because its never too late) to start learning scala seriously. S
 ```
 package com.nimahajan.sample
 
-Object SumUtility {
+object SumUtility {
   def main(args: Array[String]) {
       println("Sum of first N number is " + sumOfFirstN(10));
   }
@@ -25,7 +25,7 @@ Object SumUtility {
 ```
 
 ####Things to notice here -
-1. "Object" - Makes class singleton. No static in scala.
+1. "object" - Makes class singleton. No static in scala.
 2. "main" function is also not static.
 3. recursive function needs to specify return type. 
 4. For all function parameters, data type is after the variable name.
