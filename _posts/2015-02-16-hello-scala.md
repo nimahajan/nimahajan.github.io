@@ -30,10 +30,13 @@ object SumUtility {
 2. "main" function is also not static.
 3. recursive function needs to specify return type. 
 4. For all function parameters, data type is after the variable name.
+5. ; is optional if it is end of instruction.
 
 
 ### 2. String Pattern Matching
 ```
+package com.nimahajan.sample
+
 object StringPatternMatchUtility {
  
  def main(args: Array[String]) {
