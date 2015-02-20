@@ -32,4 +32,43 @@ object SumUtility {
 4. For all function parameters, data type is after the variable name.
 
 
+###2.String Pattern Matching
+```
+object StringPatternMatchUtility {
+ 
+ def main(args: Array[String]) {
+      val inputString = "mahajan"; 
+      val pattern = "haj";
+      println("The Pattern Matches At Position :" + matchPattern(inputString, pattern));
+ }
+  
+ def matchPattern(input: String, pattern: String): Int = {
+    val loop = new Breaks;
+
+    for (i<- 0 to input.length-1) {
+      var foundMatch = true;
+      loop.breakable {
+        for (j<-0 to pattern.length-1) {
+          if (i+j >= input.length || input.charAt(i+j) != pattern.charAt(j)) {
+            foundMatch = false;
+            loop.break();
+          }
+        }
+      }
+      if(foundMatch){
+        return i;
+      }
+    }
+    return -1;
+  }
+}
+```
+####Things to notice here -
+1. val is like final in Java. A very good explanation is available at the - http://stackoverflow.com/questions/1791408/what-is-the-difference-between-a-var-and-val-definition-in-scala
+2. break -  Scala does have 'break'. However there are various other ways to break out of loop. Please read for details -
+http://stackoverflow.com/questions/2742719/how-do-i-break-out-of-a-loop-in-scala
+3. For loop syntax is another thing to look for. 
+	If you want to do usual increment by 1, you can do  - for(j <- 0 to count) 
+	If you want to increment by say 2, you can do - for (j <- 0 until max by 2)
+4.There is no ++ OR -- operator in scala.
 
