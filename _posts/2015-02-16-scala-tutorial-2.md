@@ -1,5 +1,3 @@
-#Scala Tutorial- 2
-
 One of the most important feature of scala is callback functions. Just like javascript, one can pass on a callback function that would be called after something happens in the called function.
 
 Lets take an example code with a simple callback function in it.
